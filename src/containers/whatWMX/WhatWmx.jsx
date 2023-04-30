@@ -4,11 +4,18 @@ import './whatwmx.css'
 
 const WhatWmx = () => {
   return (
-    <div className="wmx__whatWmx section__margin" id="wmx">
+    <div className="wmx__whatWmx section__margin" id="about">
       <div className="wmx__whatWmx-feature">
         <Feature
           title="About Walletmix"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
+          text="Providing innovative and customized one-stop digital solution to every clients. Our mission is what drives us to create digital solutions to expand business potential. We do that by creating groundbreaking innovative projects, by building a creative and diverse team and also by making a positive impact in communities where we live and work."
+        />
+      </div>
+      <br />
+      <div className="wmx__whatWmx-feature">
+        <Feature
+          title="Our Mission"
+          text="Based in Dhaka, Bangladesh, Walletmix Limited provides Payment Gateway, OTA Software, Software Development, App Development, Web Development, ISP Billing Software and Bulk SMS."
         />
       </div>
       <div className="wmx__whatWmx-heading">
@@ -19,16 +26,16 @@ const WhatWmx = () => {
       </div>
       <div className="wmx__whatWmx-container">
         <Feature
-          title="Chatbots"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "
+          title="Financial Services"
+          text="We empower the most Innovative digital financial Services in Bangladesh"
         />
         <Feature
-          title="Knowledgebase"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          title="B2B solution"
+          text="Walletmix is a B2B solution provider for the Open Banking age. We build open and light software components that can transform your business in no time."
         />
         <Feature
-          title="Education"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          title="Why we gathered"
+          text="That is why we gathered the best designers, domain experts, and stellar technical engineers to help Banks and Financial technology companies become digital champions."
         />
       </div>
     </div>

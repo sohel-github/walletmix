@@ -44,7 +44,8 @@
 .wmx__navbar-menu_container button{
     padding: 1rem 2rem;
     color: #fff;
-    background: #ff4820;
+    /* background: #ff4820; */
+    background: var(--gradient-btn-bg);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;

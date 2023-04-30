@@ -1,0 +1,28 @@
+.wmx__services-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.wmx__services-heading p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    width: 50rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.wmx__services-content{
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}

@@ -4,36 +4,48 @@ import './features.css'
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly ",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    title: "Virtual Terminal",
+    text: "Walletmix payment gateway has virtual terminal for processing credit cards over the internet as compared to a physical POS card swiper.",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "SSL ( Secure Sokets Layer )",
+    text: "Walletmix Payment Gateway uses SSL data transmission for establishing an encrypted link between a server and a client.",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "CCV",
+    text: "Walletmix Payment Gateway makes use of CCV (Card Code Verification) as an extra measure of security against fraudulent credit card transactions.",
   },
   {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+    title: "AVS",
+    text: "Walletmix Payment Gateway uses AVS (Address Verification Service) for checking and verifying the address of a person claiming to own a credit card.",
+  },
+  {
+    title: "PCI DSS Complient",
+    text: "Walletmix Payment Gateway follows Payment Card Industry Data Security Standard which means it is PCI DSS Compliant.",
   },
 ];
 
 const Features = () => {
   return (
-    <div className="wmx__features section__padding" id="features">
+    <div className="wmx__features section__padding" id="security">
       <div className="wmx__features-heading">
         <h1 className="gradient__text">
-          The Future is Now and You Just Need To Realize It. Step into Future
-          Today & Make it Happen.
+          Security Features of Walletmix Payment Gateway
         </h1>
-        <p>Request Early Access to Get Started</p>
+        <p>
+          Walletmix payment gateway authorizes and transmits credit card numbers
+          securely and reliably without charging usurious discount rates or
+          transaction fees.
+        </p>
+        {/* <p>Request Early Access to Get Started</p> */}
       </div>
       <div className="wmx__features-container">
         {featuresData.map((item, index) => (
-          <Feature key={item.title + index} title={item.title} text={item.text} />
+          <Feature
+            key={item.title + index}
+            title={item.title}
+            text={item.text}
+          />
         ))}
       </div>
     </div>

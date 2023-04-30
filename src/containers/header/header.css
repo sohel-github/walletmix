@@ -44,13 +44,12 @@
     border-radius: 5px 0px 0px 5px;
 }
 .wmx__header-content__input button{
-    width: 174px;
-    height: 73px;
-    background: #FF4820;
-    border-radius: 0px 5px 5px 0px;
+    background: var(--gradient-btn-bg);
+    border-radius: 5px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 20px;
+    padding: 1.2rem 2rem;
     line-height: 27px;
     color: #FFFFFF;
     outline: none;
@@ -117,15 +116,15 @@
         line-height: 42px;
     }
     .wmx__header p{
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 26px;
     }
     .wmx__header-content__people{
         flex-direction: column;
         margin-top: 10px;
     }
     .wmx__header-content__input button {
-        width: 110px;
+        /* width: 110px; */
         font-size: 15px;
     }
 }

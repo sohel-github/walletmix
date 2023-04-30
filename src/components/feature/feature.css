@@ -30,7 +30,7 @@
 .wmx__features-container__feature-text{
     flex: 2;
     display: flex;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
 .wmx__features-container__feature-text p{
     font-family: var(--font-family);

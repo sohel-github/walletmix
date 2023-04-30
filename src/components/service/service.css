@@ -1,0 +1,55 @@
+.wmx_service-component{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+}
+.wmx_service-component_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: var(--gradient-text);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+.wmx_service-component_icon svg{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+.wmx_service-component h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.wmx_service-component .bar {
+    width: 38px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+.wmx_service-component p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-text);
+}

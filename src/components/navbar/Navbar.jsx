@@ -10,10 +10,13 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#wmx">What is Wmx</a>
+      <a href="#about">About Walletmix</a>
     </p>
     <p>
-      <a href="#possibility">Open AI</a>
+      <a href="#services">Services</a>
+    </p>
+    <p>
+      <a href="#security">Security</a>
     </p>
     <p>
       <a href="#features">Case Study</a>
