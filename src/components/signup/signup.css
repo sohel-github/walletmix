@@ -1,0 +1,70 @@
+.signup_modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.signup_modal_close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #ff4200, #ff7e00);
+    color: #fff;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_modal_content{
+    position: relative;
+    min-width:1000px;
+    padding: 2rem;
+}
+
+.signup_modal_content_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.signup_modal_content_header h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+.signup_modal_content_header p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--color-text);
+}
+.prev_next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+.prev_next button{
+    background: linear-gradient(45deg, #ff4200, #ff7e00);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-right: 10px;
+}

@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Signup from '../signup/Signup'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import logo from '../../assets/logo.png'
 import './navbar.css'
@@ -30,19 +31,11 @@ const Menu = () => (
 const Navbar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [test, setTest] = useState(false);
-
-  const Test = () => (
-    <>
-      <div className='test scale-in-hor-center'>
-        <div className='yes' onClick={()=>setTest(false)}>close</div>
-      </div>
-    </>
-  );
+  const [signup, setSignup] = useState(false);
 
   return (
     <div className="wmx__navbar">
-      {test && (<Test />)}
+      {signup && (<Signup signup={signup} setSignup={setSignup} />)}
       <div className="wmx__navbar-links">
         <div className="wmx__navbar-links_logo">
           <img src={logo} alt="Walletmix" />
@@ -55,7 +48,7 @@ const Navbar = () => {
         <p>
           <a href="#">Sign in</a>
         </p>
-        <button type="button" onClick={()=> setTest(true)}>Sign up</button>
+        <button type="button" onClick={()=> setSignup(true)}>Sign up</button>
       </div>
       <div className="wmx__navbar-menu">
         {toggleMenu ? (

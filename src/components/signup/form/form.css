@@ -1,0 +1,25 @@
+.f1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+.f1 div p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+}
+.f1 div input{
+    width: 100%;
+    border: none;
+    background: rgba(120,131,155,.2);
+    padding: 1rem 1.3rem;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: normal;
+}
