@@ -1,9 +1,12 @@
-.f1{
+.form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
+    padding: 20px;
+    height: 350px;
+    overflow: auto;
 }
-.f1 div p{
+.form div p{
     font-family: var(--font-family);
     font-weight: normal;
     font-size: 15px;
@@ -12,7 +15,7 @@
     margin-bottom: 1rem;
     margin-left: 0.3rem;
 }
-.f1 div input{
+.form div input{
     width: 100%;
     border: none;
     background: rgba(120,131,155,.2);
@@ -22,4 +25,37 @@
     color: #fff;
     font-family: var(--font-family);
     font-weight: normal;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0, 40, 83, 1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(4, 12, 24, 0.4);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
